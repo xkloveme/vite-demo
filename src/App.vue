@@ -1,8 +1,4 @@
 <template>
-<h1>demo</h1>
-  <img alt="Vue logo" src="./assets/logo.png" />
-
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <router-link :to="{path:'/'}">首页</router-link>
   <router-link :to="{path:'/demo'}">demo</router-link>
   <router-view></router-view>
@@ -10,14 +6,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import router from './router/index';
 
 export default defineComponent({
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  // components: {
+  //   HelloWorld
+  // }
 })
 </script>
 
